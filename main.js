@@ -7,11 +7,10 @@ let flippedCards = [];
 let matchedPairs = 0;
 let moves = 0;
 
-// Array of image sources (replace with your image paths)
 const images = [
-    'jaguar.jpg', 'jaguar.jpg', // Pair 1
-    'squirrel.jpg', 'squirrel.jpg', // Pair 2
-    'fox.jpg', 'fox.jpg'  // Pair 3
+    'jaguar.jpg', 'jaguar.jpg', 
+    'squirrel.jpg', 'squirrel.jpg', 
+    'fox.jpg', 'fox.jpg'  
 ];
 
 function shuffle(array) {
@@ -84,6 +83,6 @@ function checkMatch() {
 
 restartButton.addEventListener('click', createBoard);
 
-// Initialize the game
+
 createBoard();
   
